@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build:watch": "npx tsc --watch",
-    "start:watch": "nodemon dist/index.js",
+    "start:watch": "nodemon dist/app.js",
     "dev": "npm run build:watch & npm run start:watch"
   }
 }
